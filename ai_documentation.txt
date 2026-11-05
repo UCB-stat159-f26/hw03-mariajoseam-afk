@@ -1,0 +1,5 @@
+1. Asked Claude how I could fetch the date of birth for the players as 
+they dont come in the career js file. Each player has their birth date in their 
+player profile. However the url for men and women is different, so also asked
+Claude how to create a function so that you can detect if its a male or female 
+player.
