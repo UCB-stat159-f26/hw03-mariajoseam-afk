@@ -1,5 +1,5 @@
 # Read the career JS file of the players
-fetch_career_js <- function(url) {
+download_career_js <- function(url) {
   not_found <- function(cond) {
     stop("Could not get career data from ", url,
          "\nCheck the player's name, e.g. \"Aryna Sabalenka\".", call. = FALSE)
