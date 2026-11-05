@@ -28,3 +28,10 @@ career_db <- function(matches, player_dob) {
   career$diff_age <- career$player_age - career$oppon_age
   career[order(career$date), ]
 }
+
+# detect if it is a male or female player
+is_female_career <- function(matches) {
+  values <- get_field(matches, 17)
+  values <- values[!is.na(values) & values != ""]
+  all(grepl("^[0-9]{8}$", values))
+}
