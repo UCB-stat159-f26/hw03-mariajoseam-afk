@@ -3,7 +3,7 @@ Title: Package HW3
 Version: 0.0.0.9000
 Authors@R: María José Abascal Miguel
 Description: Package with two primary functions; 1) get career´s data of Aryna
-Sabalenka and 2) make a scatter plot.
+  Sabalenka and 2) make a scatter plot.
 License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
