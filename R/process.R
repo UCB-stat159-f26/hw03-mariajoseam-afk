@@ -35,3 +35,10 @@ is_female_career <- function(matches) {
   values <- values[!is.na(values) & values != ""]
   all(grepl("^[0-9]{8}$", values))
 }
+
+# Extract the player's date of birth
+extract_dob <- function(page_text) {
+  dob <- regmatches(page_text, regexpr("var dob = [0-9]{8}", page_text))
+  if (length(dob) == 0) stop("Could not find the player's date of birth.", call. = FALSE)
+  as.Date(sub("var dob = ", "", dob), format = "%Y%m%d")
+}
