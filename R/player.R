@@ -11,3 +11,10 @@ build_career_url <- function(player_name) {
   paste0("https://www.tennisabstract.com/jsmatches/",
          format_player_name(player_name), "Career.js")
 }
+
+# Tennis abstract url for the bod and age
+build_player_url <- function(player_name, female) {
+  page <- if (female) "wplayer.cgi" else "player.cgi"
+  paste0("https://www.tennisabstract.com/cgi-bin/", page, "?p=",
+         format_player_name(player_name))
+}
