@@ -14,7 +14,7 @@ test_that("the file text is processed into only one element", {
 
 test_that("files for female players get opponent age from birth date", {
   df <- career_db(process_career_js(female_js), as.Date("1981-09-26"))
-  expect_equal(df$oppon_age[1], 18.78)
+  expect_equal(df$oppon_age[1], 6858 / 365.25)
 })
 
 test_that("files for male players keep the opponent age as in the JS", {
