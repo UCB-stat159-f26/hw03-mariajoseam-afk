@@ -3,3 +3,8 @@ they dont come in the career js file. Each player has their birth date in their
 player profile. However the url for men and women is different, so also asked
 Claude how to create a function so that you can detect if its a male or female 
 player.
+
+2. I asked Claude to help me refine my test (test_that("files for female players get opponent age from birth date", {
+  df <- career_db(process_career_js(female_js), as.Date("1981-09-26"))
+  expect_equal(df$oppon_age[1], 18.78)
+})) as it was failing because of very minimal differences.
