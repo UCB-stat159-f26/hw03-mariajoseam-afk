@@ -5,7 +5,7 @@ Authors@R:
     person("María José", "Abascal Miguel", , "mariajoseam@berkeley.edu", role = c("aut", "cre"))
 Description: Package with two primary functions; 1) get career´s data of Aryna
   Sabalenka and 2) make a scatter plot.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
