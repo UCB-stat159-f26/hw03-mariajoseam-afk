@@ -27,3 +27,31 @@ plot_career(nadal)
 `get_career()` accepts names like "Aryna Sabalenka", "aryna sabalenka" or
 "ArynaSabalenka". It gives a data base with the player's age, 
 the opponent's age, the age difference and the result.
+
+## File structure
+
+```
+.
+├── DESCRIPTION            
+├── NAMESPACE             
+├── LICENSE                
+├── LICENSE.md           
+├── README.md
+├── ai_documentation.txt   
+├── instructions.md        
+├── hw03-mariajoseam-afk.Rproj
+├── R/
+│   ├── player.R           
+│   ├── download.R         
+│   ├── process.R          
+│   ├── ages.R             
+│   ├── get_career.R       
+│   └── plot.R             
+├── man/
+│   ├── get_career.Rd      
+│   └── plot_career.Rd
+└── tests/
+    ├── testthat.R
+    └── testthat/
+        └── test-process.R 
+```
