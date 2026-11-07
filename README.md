@@ -12,3 +12,18 @@ part of HW1, HW2, and HW3 of the class STAT 259.
 # install.packages("devtools")
 devtools::install_github("UCB-stat159-f26/hw03-mariajoseam-afk")
 ```
+## Usage
+
+```r
+library(TennisCareerPlots)
+
+sabalenka <- get_career("Aryna Sabalenka")
+plot_career(sabalenka)
+
+nadal <- get_career("rafael nadal")
+plot_career(nadal)
+```
+
+`get_career()` accepts names like "Aryna Sabalenka", "aryna sabalenka" or
+"ArynaSabalenka". It gives a data base with the player's age, 
+the opponent's age, the age difference and the result.
