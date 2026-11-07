@@ -55,3 +55,19 @@ the opponent's age, the age difference and the result.
     └── testthat/
         └── test-process.R 
 ```
+
+## Personal reflection
+
+I had never really understood or maybe even thought? how a package actually
+worked. Honestly I just used them and did not think of the mechanics. So doing
+this homework actually was very enlightening of not only learning how to
+build a package but also how they actually works.
+
+I also found myself challenged to know what part of my code to pick for each 
+function, if I was leaving something out but to make sure in the end it was
+going to have the same results as my other assignments.
+
+Finally, since starting this homework I have been thinking on how to actually
+apply this to my work and not only to this assignment. I have also worked with
+languages, coding, but till this class I never went this far and specifically
+for this homework had never created a package.
