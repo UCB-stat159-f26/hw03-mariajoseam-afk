@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(TennisCarreerPlots)
+library(TennisCareerPlots)
 
-test_check("TennisCarreerPlots")
+test_check("TennisCareerPlots")
